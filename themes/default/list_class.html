@@ -1,0 +1,79 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+
+<div data-am-widget="slider" class="am-slider am-slider-a1  am-hide-sm-only" data-am-slider='{"directionNav":"false"}' >
+    <ul class="am-slides">
+        <li>
+            <img src="/assets/image/35.png" class="am-img-responsive" alt="{$media.title}" />
+        </li>
+        <li>
+            <img src="/assets/image/51.png" class="am-img-responsive" alt="{$media.title}" />
+        </li>
+        <li>
+            <img src="/assets/image/52.png" class="am-img-responsive" alt="{$media.title}" />
+        </li>
+    </ul>
+</div>
+
+<div data-am-widget="slider" class="am-slider am-slider-a1  am-show-sm-only" data-am-slider='{"directionNav":"false"}' >
+    <ul class="am-slides">
+        <li>
+            <img src="/assets/image/37.jpg" class="am-img-responsive am-center" alt="{$media.title}" />
+        </li>
+        <li>
+            <img src="/assets/image/53.jpg" class="am-img-responsive am-center" alt="{$media.title}" />
+        </li>
+        <li>
+            <img src="/assets/image/54.jpg" class="am-img-responsive am-center" alt="{$media.title}" />
+        </li>
+    </ul>
+</div>
+
+
+
+<main class="product-show am-padding-vertical-xl">
+    <div class="am-container">
+        <p class="am-text-sm am-link-muted am-margin-top-0 am-margin-bottom-sm">
+            <a href="__ROOT__/">首页</a><!--foreach{$crumb as $vo}--> <span>&gt;</span> <a href="{$vo.url}">{$vo.name}</a><!--{/foreach}-->
+        </p>
+
+        <ul class="am-avg-sm-4 product-category am-margin-vertical-sm">
+            <!--foreach{$condition as $vo}-->
+            <li class="select-all <!--if{$vo.value==="all"}-->  selected <!--{/if}--> ">
+                <a href="{$vo.url}" class="product-num">全部课程</a>
+            </li>
+            <!--foreach{$vo.config as $v}-->
+            <li <!--if{$v.value == $v.i}--> class="selected" <!--{/if}--> >
+                <a href="{$v.url}" class="product-num">{$v.name}</a>
+            </li>
+            <!--{/foreach}-->
+            <!--{/foreach}-->
+
+        </ul>
+
+        <article>
+            <!--foreach{$pageList as $vo}-->
+           <div class="class-box">
+               <img src="{$vo.image}" class="am-img-responsive" alt="{$vo.title}" />
+
+               <div>
+                   <a href="{$vo.aurl}">
+                       <p class="class-title am-text-truncate">{$vo.title}</p>
+                       <p class="">课时：{$vo.duration}</p>
+                       <p class="brief-para">{$vo.brief}</p>
+                       <span href="">了解课程 >></span>
+                   </a>
+
+               </div>
+           </div>
+            <!--{/foreach}-->
+            <div class="pagination">{$page}</div>
+        </article>
+    </div>
+</main>
+
+<!--#include file="bottom_ads.html"-->
+
+<!--#include file="footer.html"-->

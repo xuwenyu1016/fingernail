@@ -1,0 +1,5 @@
+<?php exit;?>001573553476d69f0e5253c6375bce6b433ed5178dc9s:1226:"a:2:{s:8:"template";s:1162:"<div class="form-group"><div class="label"><label>课时</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_duration" name="Fieldset_duration" size="60"  value="7天">
+                <div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>课程</label></div><div class="field"><div class="padding-top"> <label><input name="Fieldset_class" value="1" checked="checked" type="radio"> 美甲课程</label>  <label><input name="Fieldset_class" value="2" type="radio"> 美睫课程</label>  <label><input name="Fieldset_class" value="3" type="radio"> 半永久课程</label> </div><div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>简述</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_brief" name="Fieldset_brief" size="60"  value="此课程适用于有一定美甲基础的美甲创业者、美甲师。每一季度同步更新日本流行款式和美甲饰品，包含季节限定色胶、季节限定款、节日限定款。">
+                <div class="input-note"></div></div></div>";s:12:"compile_time";i:1542017476;}";

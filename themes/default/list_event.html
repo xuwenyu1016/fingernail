@@ -1,0 +1,92 @@
+<!--#include file="head.html"-->
+
+<!--#include file="header.html"-->
+
+
+<img src="/assets/image/38.png" class="am-img-responsive am-center am-hide-sm-only" alt="{$media.title}" />
+
+<img src="/assets/image/39.jpg" class="am-img-responsive am-center am-show-sm-only" alt="{$media.title}" />
+
+<main class="product-show am-padding-vertical-xl">
+    <div class="am-container">
+        <p class="am-text-sm am-link-muted am-margin-top-0 am-margin-bottom-sm">
+            <a href="__ROOT__/">首页</a><!--foreach{$crumb as $vo}--> <span>&gt;</span> <a href="{$vo.url}">{$vo.name}</a><!--{/foreach}-->
+        </p>
+
+        <section class="news-box">
+
+            <article class="news-body am-padding-sm">
+
+                <div class="nav-links">
+                    <!--foreach{$condition as $vo}-->
+
+                    <a href="{$vo.url}" class="select-all <!--if{$vo.value==="all"}-->  selected <!--{/if}--> ">全部文章</a>
+                    <!--foreach{$vo.config as $v}-->
+
+
+                    <a <!--if{$v.value == $v.i}--> class="selected" <!--{/if}--> href="{$v.url}">{$v.name}</a>
+
+                    <!--{/foreach}-->
+
+                    <!--{/foreach}-->
+                </div>
+
+                <div class="news-container">
+                    <!--foreach{$pageList as $vo}-->
+                    <a href="{$vo.aurl}" class="news-box am-padding-vertical-sm">
+                        <img src="{$vo.image}" alt="{$vo.title}" class="am-img-responsive" />
+
+                        <div class="news-content am-padding-left-sm">
+                            <p class="am-text-truncate am-margin-vertical-xs">{$vo.title}</p>
+                            <p class="am-margin-vertical-xs am-text-sm">{$vo.description}</p>
+
+                            <span>阅读全文 >> </span>
+                        </div>
+                    </a>
+                    <!--{/foreach}-->
+                </div>
+
+                <div class="pagination">{$page}</div>
+
+            </article>
+
+            <aside class="new-suggest am-padding-left-sm">
+                <div class="am-tabs" data-am-tabs>
+                    <ul class="am-tabs-nav am-nav am-nav-tabs">
+                        <li class="am-active"><a href="#tab1">近期文章</a></li>
+                        <li><a href="#tab2">热门推荐</a></li>
+
+                    </ul>
+
+                    <div class="am-tabs-bd">
+                        <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+                            <!--list{app="DuxCms" label="contentList" class_id="6" sub=true limit=5 order="time desc"}-->
+                            <a href="{$list.aurl}">
+                                <p class="am-margin-vertical-xs am-text-truncate am-text-sm">{$list.title}</p>
+                                <p class="am-margin-vertical-xs am-text-xs">{$list.description}</p>
+                            </a>
+                            <!--{/list}-->
+
+                        </div>
+                        <div class="am-tab-panel am-fade" id="tab2">
+
+                            <!--list{app="DuxCms" label="contentList" class_id="6" sub=true limit=5 order="views desc"}-->
+                            <a href="{$list.aurl}">
+                                <p class="am-margin-vertical-xs am-text-truncate am-text-sm">{$list.title}</p>
+                                <p class="am-margin-vertical-xs am-text-xs">{$list.description}</p>
+                            </a>
+                            <!--{/list}-->
+
+                        </div>
+
+                    </div>
+                </div>
+            </aside>
+
+        </section>
+    </div>
+</main>
+
+<!--#include file="bottom_ads.html"-->
+
+<!--#include file="footer.html"-->

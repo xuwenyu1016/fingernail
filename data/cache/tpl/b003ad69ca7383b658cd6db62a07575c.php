@@ -1,0 +1,9 @@
+<?php exit;?>001574940358943cde34f8bdc1cee01755abd8321356s:2117:"a:2:{s:8:"template";s:2053:"<div class="form-group"><div class="label"><label>活动资讯</label></div><div class="field"><div class="padding-top"> <label><input name="Fieldset_news" value="1" checked="checked" type="radio"> 新闻资讯</label>  <label><input name="Fieldset_news" value="2" type="radio"> 活动资讯</label>  <label><input name="Fieldset_news" value="3" type="radio"> 美甲知识</label>  <label><input name="Fieldset_news" value="4" type="radio"> 美睫知识</label> </div><div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>首页咨询图片</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_pics" name="Fieldset_pics" size="38"  value="/upload/2018-11-28/3cb14fd4e2e4b22081f55ed9bc3ee0cb.png">
+                    <a class="button bg-blue button-small js-img-upload" data="Fieldset_pics" id="Fieldset_pics_upload" preview="Fieldset_pics_preview" href="javascript:;" ><span class="icon-upload"> 上传</span></a>
+                    <a class="button bg-blue button-small icon-picture-o" id="Fieldset_pics_preview" href="javascript:;" > 预览</a>
+                <div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>首页活动推荐文字</label></div><div class="field">
+                    <textarea class="input" id="Fieldset_words" name="Fieldset_words" rows="3" cols="62" ><p class="am-margin-vertical-sm">&emsp;&emsp;第二届「北京国际美甲博览会」于2018年11月26日至28日在北京国家会议中心盛大举行！</p>
+<p class="am-margin-vertical-sm">&emsp;&emsp;汇聚约100多个海内外高端美甲美睫品牌。</p>
+<p class="am-margin-vertical-sm">&emsp;&emsp;这个多元化的美甲、美睫盛会致力为海内、外的美甲及美睫生产商、供应商及贸易商在大中华地区创造源源商机，让与会者在采购上乘优质产品的同时，追踪业界新设计及技术，促进彼此间的交流。</p></textarea>
+                <div class="input-note"></div></div></div>";s:12:"compile_time";i:1543404358;}";

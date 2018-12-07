@@ -1,0 +1,8 @@
+<?php exit;?>00157494026744f6399a4904c76c3744a069ab80b027s:2004:"a:2:{s:8:"template";s:1940:"<div class="form-group"><div class="label"><label>活动资讯</label></div><div class="field"><div class="padding-top"> <label><input name="Fieldset_news" value="1" type="radio"> 新闻资讯</label>  <label><input name="Fieldset_news" value="2" checked="checked" type="radio"> 活动资讯</label>  <label><input name="Fieldset_news" value="3" type="radio"> 美甲知识</label>  <label><input name="Fieldset_news" value="4" type="radio"> 美睫知识</label> </div><div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>首页咨询图片</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_pics" name="Fieldset_pics" size="38"  value="/assets/image/33.png">
+                    <a class="button bg-blue button-small js-img-upload" data="Fieldset_pics" id="Fieldset_pics_upload" preview="Fieldset_pics_preview" href="javascript:;" ><span class="icon-upload"> 上传</span></a>
+                    <a class="button bg-blue button-small icon-picture-o" id="Fieldset_pics_preview" href="javascript:;" > 预览</a>
+                <div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>首页活动推荐文字</label></div><div class="field">
+                    <textarea class="input" id="Fieldset_words" name="Fieldset_words" rows="3" cols="62" >  <p class="am-margin-vertical-sm">&emsp;&emsp;2018年10月28号 秋季JNEC日本美甲鉴定考试圆满结束</p>
+                            <p class="am-margin-vertical-sm">&emsp;&emsp;今年最后一次美甲考试圆满落幕，感谢大家给予我们的支持！随着报名人数每年逐渐增加，中国的学员在模拟考试期间认真听讲和努力练习，以考试当天好成绩获得老师赞扬，恭喜大家获得荣誉证书！未将来的创业道路更迈进一步。</p></textarea>
+                <div class="input-note"></div></div></div>";s:12:"compile_time";i:1543404267;}";

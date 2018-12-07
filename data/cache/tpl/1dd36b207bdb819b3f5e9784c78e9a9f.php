@@ -1,0 +1,5 @@
+<?php exit;?>001573553375c116f0fc9f5b284ee0b1bcbce3440c26s:1151:"a:2:{s:8:"template";s:1087:"<div class="form-group"><div class="label"><label>课时</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_duration" name="Fieldset_duration" size="60"  value="7天">
+                <div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>课程</label></div><div class="field"><div class="padding-top"> <label><input name="Fieldset_class" value="1" checked="checked" type="radio"> 美甲课程</label>  <label><input name="Fieldset_class" value="2" type="radio"> 美睫课程</label>  <label><input name="Fieldset_class" value="3" type="radio"> 半永久课程</label> </div><div class="input-note"></div></div></div><div class="form-group"><div class="label"><label>简述</label></div><div class="field">
+                    <input type="text" class="input" id="Fieldset_brief" name="Fieldset_brief" size="60"  value="此课程适用于0基础美甲爱好者、创业从业者。同步日本JNA、 JNEC美甲基础知识和入门款式。">
+                <div class="input-note"></div></div></div>";s:12:"compile_time";i:1542017375;}";
